@@ -7,7 +7,13 @@ class DadBot(commands.Cog):
     CMD_PREFIX = '--'
 
     @commands.Command()
-    async def enable(ctx):
-        
+    async def enable(self, ctx):
+        pass
 
-def main():
+    @commands.Command()
+    async def add(self, ctx):
+        pass
+
+    @commands.Command()
+    async def joke(self, ctx):
+        pass
